@@ -33,16 +33,9 @@ Projeto com 4 microserviços Spring Boot:
 - Ajuste as versões do Spring Boot / Java no pom.xml conforme necessário.
 - Lembre-se de que é necessário gerar os JARs (`mvn package`) para que o Dockerfile consiga copiar o `target/*.jar`.
 
-## Tag para entrega
-Após commitar tudo no repo, crie a tag BASELINE:
-```
-git tag BASELINE
-git push origin BASELINE
-```
-
 
 ### Versão com Docker Multi-Stage Build
-Agora o projeto pode ser executado **sem precisar do Maven localmente**.
+O projeto pode ser executado **sem precisar do Maven localmente**.
 Para rodar tudo:
 
 ```
