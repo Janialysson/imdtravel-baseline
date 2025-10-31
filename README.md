@@ -87,7 +87,6 @@ Projeto com 4 microserviços Spring Boot:
 Caso o projeto seja executado **sem precisar do Maven localmente**.
 Para rodar tudo:
 
-```
 docker compose up --build
 ```
 Isso compila os JARs dentro dos containers automaticamente.
